@@ -24,8 +24,16 @@
             extend: {
 
              colors: {
-                clifford: '#da373d',
-                 'custom-gold': '#B68C5A',
+
+            
+
+                 clifford: '#da373d',
+             
+                 btn:'#ABEF5F',
+                 white:'#FFFFFF',
+
+                 grayBack:'#F4F4F4'
+                
                
 
         
@@ -53,12 +61,118 @@
 </head>
 
 
-
-
 <body>
 
 
-    <!-- header section -->
+    <!-- header and banner section -->
+  <section class=" bg-gray-100 min-h-96 border-2 shadow-md">
+
+      <!-- header section -->
+      <header class="container mx-auto mt-8">
+        <div class="navbar bg-base-100  bg-gray-100">
+            <div class="navbar-start">
+             
+              <a class="btn btn-ghost text-xl"><i class="fa-solid fa-arrow-right transform -rotate-45 w-10 h-10 bg-btn rounded-full flex items-center justify-center border"></i> Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex border-2">
+              <ul class="menu menu-horizontal px-1">
+                <li><a> <span class="font-bold">Home</span></a></li>
+                <li> <a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+
+                <div class="flex space-x-4 lg:space-x-8  items-center justify-center">
+
+                <i class="fa-solid fa-magnifying-glass hidden rounded-full p-2  w-10 h-10  lg:flex items-center justify-center border  bg-white "></i>
+                
+                <i class="fa-solid fa-cart-shopping mx2 hidden rounded-full p-2 w-10 h-10 lg:flex items-center justify-center border  bg-white "></i>
+              
+              <a class="btn bg-btn rounded-full">Book consult <i class="fa-solid fa-arrow-right transform -rotate-45 w-10 h-10 bg-black rounded-full flex items-center justify-center border text-white"></i></a>
+                
+              <i class="fa-solid fa-bars lg:hidden w-2"></i>
+            </div>
+
+            </div>
+        
+          </div>
+     </header>
+
+<!-- banner section -->
+   <section class="container mx-auto min-h-52 border  flex flex-col items-center justify-center py-10" >
+    <!-- image-section -->
+    <div class="text-center border items-center justify-center" >
+        <img src="assets/banner.png" alt="">
+
+    </div>
+
+    <!-- writing -section -->
+     
+    <div class="text-center">
+
+        <h1 class="font-extrabold text-6xl">A barn house of this design has a <br> striking appearance</h1>
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+
+    </div>
+    <!-- div for button, btn is hard to bring on centre -->
+
+    <a class="btn bg-btn rounded-full bg-opacity-50">Book consult <i class="fa-solid fa-arrow-right transform -rotate-45 w-10 h-10 bg-black rounded-full flex items-center justify-center border text-white"></i></a>
+
+   </section>
+
+
+
+  </section>
+
+   <!-- about section -->
+<section class="bg-grayBack min-h-52 w-full text-center">
+
+       <!-- about section -->
+<section class="bg-grayBack min-h-52 w-full text-center my-10">
+
+    <a class="btn py-0 px-4 rounded-full  bg-white"> <i class="fa-solid fa-arrow-right transform  w-6 text-lg"></i>How we work</a>
+
+   <div class="flex">
+    <div class="container mx-auto border-2 min-h-36 ">
+
+        <h1 class="text-5xl ">We design thoughtful, liveable spaces</h1>
+        <p>The barn house captivates with its blend of rustic charm and  modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+       <!-- card holder -->
+        <div class=" container mx-auto border-2  min-h-36">
+            <!-- card 1 -->
+            <div class=" bg-white min-h-10 my-2">
+                <img src="assets/commercial.png" alt="">
+
+            </div >
+               <!-- card 2 -->
+            <div class=" bg-white min-h-10 my-2">
+                <img src="assets/residential.png" alt="">
+
+            </div>
+        </div>
+
+    
+    </div>
+        <!-- div for image  -->
+         <img src="assets/Rectangle.png" alt="">
+    <div>
+
+    </div>
+   </div>
+    
+    
+    </section>
+  
+
+   
+    
+
+
+
+</section>
 
     
 </body>
