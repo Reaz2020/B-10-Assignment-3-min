@@ -16,6 +16,9 @@
 
 
     <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <!-- Custom styles tailwind css -->
     <script>
@@ -41,6 +44,7 @@
 
               fontFamily : {
                 // garamond: "EB Garamond",
+                   manrope: "Manrope",
               
 
               },
@@ -61,7 +65,7 @@
 </head>
 
 
-<body class="bg-grayBack">
+<body class="bg-grayBack font-manrope">
 
 
     <!-- header and banner section -->
@@ -141,7 +145,7 @@
     <div class=" border-2 min-h-36 text-center lg:text-left  ">
          <a class="btn py-0 px-4 rounded-full  bg-white"> <i class="fa-solid fa-arrow-right transform  w-6 text-lg"></i>about us</a>
 
-        <h1 class="text-5xl ">We design thoughtful, liveable spaces</h1>
+        <h1 class="text-5xl font-extrabold">We design thoughtful, liveable spaces</h1>
         <p>The barn house captivates with its blend of rustic charm and  modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
        <!-- card holder -->
         <div class=" container mx-auto border-2  items-center justify-center">
@@ -193,7 +197,7 @@
     <!-- writing  div -->
     <div class="text-center">
         <a class="btn py-0 px-4 rounded-full  bg-white"> <i class="fa-solid fa-arrow-right transform  w-6 text-lg"></i>How we work</a>
-        <h1>Our Works Process</h1>
+        <h1 class="text-5xl font-extrabold">  Our Works Process</h1>
         <p>The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
      </div >
      <!-- card div  -->
@@ -272,6 +276,69 @@
        </div>
      </div>
 </div>
+
+ </section>
+
+
+ <!-- our latest portfolio section  -->
+ <section class=" min-h-80">
+
+   <div class="container mx-auto">
+   <div class="text-center">
+    <a class="btn bg-btn rounded-full bg-opacity-50"> <i class="fa-solid fa-arrow-right transform  w-10 h-10 rounded-full flex items-center justify-center "></i>Explore our latest works </a>
+    <h1 class="font-bold text-6xl">Our Latest Portfolio</h1>
+    <p class="">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+   </div>
+
+   <!-- portfolio images -->
+   <div class=" grid lg:grid-cols-5 gap-12">
+
+
+    <!-- card-1 -->
+    <div class=" col-span-4 border-2  p-4  flex gap-4">
+
+        <div>
+            <img src="assets/img1.png" alt="">
+
+        </div>
+
+        <div class="max-w-md">
+            <h1 class="font-bold text-xl">Commercial</h1>
+            <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+            <button>View details </button>
+        </div>
+
+    </div>
+
+    <!-- card-2 -->
+    <div class="border-2 p-4 "> 
+        <img src="assets/img2.png" alt="">
+    </div>
+
+    <!-- card-3 -->
+    <div class="  flex items-center justify-center  border-2    p-4  ">  <img src="assets/img3.png" alt="">
+    </div>
+  
+
+    <!-- card-4 -->
+    <div class=" flex gap-4 col-span-3  border-2  p-4 "><img src="assets/img4.png" alt="">
+        <div class="max-w-sm">
+            <h1 class="font-bold text-xl">Commercial</h1>
+            <p>The barn house captivates with its blend of rustic charm and modern. .</p>
+            <button>View details </button>
+        </div>
+    </div>
+
+
+    <!-- card-5 -->
+    <div class=" border-2   p-4  flex items-center justify-center ">  <img src="assets/img5.png" alt="">
+    </div>
+
+   </div>
+
+   </div>
+
+
 
  </section>
   
